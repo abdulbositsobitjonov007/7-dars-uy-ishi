@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <ul id="nav-res"
+        class="bg-[white] text-[black] font-[nunito] fixed h-[100vh] w-[50vw] flex flex-col justify-center items-center gap-[20px] transform translate-x-[200%] pt-[80px] px-[20px] z-[5]">
+        <li
+            class="hover:bg-[#BB2339] duration-300 hover:text-[white] border-[2px] border-[#BB2339] max-w-[200px] w-full h-[40px] rounded-[15px]">
+            <a class="w-full h-full flex items-center justify-center" href="../pages/menu.html">Menu</a>
+        </li>
+        <li
+            class="hover:bg-[#BB2339] duration-300 hover:text-[white] border-[2px] border-[#BB2339] max-w-[200px] w-full h-[40px] rounded-[15px]">
+            <a class="w-full h-full flex items-center justify-center" href="../pages/news.html">News</a>
+        </li>
+        <li
+            class="hover:bg-[#BB2339] duration-300 hover:text-[white] border-[2px] border-[#BB2339] max-w-[200px] w-full h-[40px] rounded-[15px]">
+            <a class="w-full h-full flex items-center justify-center" href="../pages/aboutus.html">About Us</a>
+        </li>
+        <li
+            class="hover:bg-[#BB2339] duration-300 hover:text-[white] border-[2px] border-[#BB2339] max-w-[200px] w-full h-[40px] rounded-[15px]">
+            <a class="w-full h-full flex items-center justify-center" href="../pages/contactus.html">Contact Us</a>
+        </li>
+        <li
+            class="hover:bg-[#BB2339] duration-300 hover:text-[white] border-[2px] border-[#BB2339] max-w-[200px] w-full h-[40px] rounded-[15px]">
+            <a class="w-full h-full flex items-center justify-center" href=""> Log In</a>
+        </li>
+        <li id="close" class="absolute top-[22px] right-[22px]"><img class="w-[42px]"
+                src="../assets/images/home/cancel-svgrepo-com.svg" alt=""></li>
+    </ul>
+    <header id="header" class="duration-500 py-[27px] bg-[#BB2339] px-[20px] fixed top-[0] w-full z-[4]">
+        <div class="container mx-auto flex items-center justify-between">
+            <a href="../index.html"><img src="../assets/images/home/image 2.svg" alt=""></a>
+
+            <ul class="hidden sm:flex gap-[40px] text-[white] font-[nunito]">
+                <li><a href="../pages/menu.html">Menu</a></li>
+                <li><a href="../pages/news.html">News</a></li>
+                <li><a href="../pages/aboutus.html">About Us</a></li>
+                <li><a href="../pages/contactus.html">Contact Us</a></li>
+                <li><a class="py-[15px] text-[white] px-[40px] duration-300 border-[2px] rounded-full hover:bg-[white] hover:text-[#BB2339]" href=""> Log In</a></li>
+            </ul>
+            <button id="toggle" class="sm:hidden cursor-pointer p-[10px]"><img src="../assets/images/home/menu.svg"
+                    alt=""></button>
+        </div>
+
+
+    </header>
+
+    <main>
+
+        <section class="pt-[190px] px-[20px]">
+            <div class="container mx-auto font-[nunito] flex flex-col items-center">
+                <h1 class="text-[48px] font-semibold text-[black] text-center pb-[20px]">Contact Us</h1>
+                <div class="flex justify-center"><img class="" src="../assets/images/home/spoon.svg" alt=""></div>
+                <div class="max-w-[720px] w-full pt-[30px]">
+                    <p class="text-[20px] tracking-[2px] pb-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique.
+                    In sed odio nec aliquet eu proin mauris et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Quis pharetra
+                    adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+                    <img class="w-full" src="../assets/images/about/pexels-ron-lach-8879653 2.png" alt="">
+                    <p class="text-[20px] tracking-[2px] pt-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique.
+                    In sed odio nec aliquet eu proin mauris et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Quis pharetra
+                    adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.It is a long established
+                    fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="relative h-[341px] flex justify-center container mx-auto font-[nunito] px-[20px]">
+            <div
+                class="absolute  px-[20px] bottom-0 mb-[-200px] text-center justify-center max-w-[1400px] w-full h-[460px] sm:h-[410px] md:h-[413px] bg-[#BB2339] py-[64px] border-[1px] border-[#FFFFFF66] rounded-[20px] shadow-3xl shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+                <h4 class="text-[23px] text-[white] font-bold">Newsletter</h4>
+                <h1 class="text-[30px] sm:text-[36px] md:text-[48px] font-semibold text-[white] py-[5px] sm:py-[25px]">
+                    Subscribe
+                    to Our Newsletter</h1>
+                <p class="text-[white]">And never miss latest Updates!</p>
+                <form class="py-[64px] sm:flex justify-center gap-[32px]">
+                    <input required
+                        class="max-w-[635px] w-full h-[52px] rounded-full text-[white] bg-[transparent] pl-[20px] border-[2px] border-[#F5EFDB80]"
+                        placeholder="Email Address" type="email">
+                    <button
+                        class="mt-[30px] sm:mt-[0px] rounded-full hover:bg-[white] hover:text-[#BB2339] duration-300 text-[16px] text-[white] font-bold py-[8px] px-[16px] border-[2px] border-[white]">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-[#BB2339] px-[20px] pb-[40px]">
+        <div class="container mx-auto font-[nunito] px-[20px]">
+            <div class="pt-[317px] flex justify-around pb-[80px] flex-wrap gap-[30px]">
+                <ul class="flex flex-col text-center gap-[20px] text-[white]">
+                    <li class="text-[32px]">Contact Us</li>
+                    <li>9 W 53rd St, London, NY 10019, UK</li>
+                    <li>+1 212-344-1230 <br> +1 212-555-1230</li>
+                </ul>
+                <ul class="flex flex-col gap-[30px]">
+                    <li class="flex justify-center"><a href=""><img class="max-w-[336px] w-full h-[117px]"
+                                src="../assets/images/home/image 2.svg" alt=""></a></li>
+                    <li class="text-center text-[16px] text-[white]">"The best way to find yourself is to lose yourself
+                        in
+                        the <br> service of others.”</li>
+                    <li class="flex items-center justify-center gap-[20px]"><a href=""><img
+                                src="../assets/images/home/u_facebook-f.svg" alt=""></a><a href=""><img
+                                src="../assets/images/home/u_twitter-alt.svg" alt=""></a><a href=""><img
+                                src="../assets/images/home/u_instagram.svg" alt=""></a></li>
+                </ul>
+                <ul class="flex flex-col text-center gap-[20px] text-[white]">
+                    <li class="text-[32px]">Working Hours</li>
+                    <li>Monday-Friday: <br> 08:00 am -12:00 am</li>
+                    <li>Saturday-Sunday: <br> 07:00am -11:00 pm</li>
+                </ul>
+            </div>
+            <h1 class="text-center text-[white] pt-[80px]">2022 Pop online. All Rights reserved.</h1>
+        </div>
+    </footer>
+
+
+    <script src="../js/home.js"></script>
+</body>
+
+</html>
