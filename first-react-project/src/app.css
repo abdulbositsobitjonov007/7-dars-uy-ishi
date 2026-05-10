@@ -1,0 +1,346 @@
+#hero {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.hero-text-part {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-text-part h1 {
+    color: white;
+    font-size: 55px;
+}
+
+.hero-text-part p {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-img {
+    max-width: 650px;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.first-btn {
+    padding: 20px 30px;
+    border-radius: 40px;
+    background-color: rgb(84, 84, 236);
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    transition: 0.3s;
+    font-weight: bold;
+    border: 2px solid rgb(84, 84, 236);
+}
+
+.second-btn {
+    padding: 20px 30px;
+    border-radius: 40px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    transition: 0.3s;
+    font-weight: bold;
+    border: 2px solid rgb(84, 84, 236);
+    color: rgb(84, 84, 236);
+}
+
+.first-btn:hover {
+    background-color: rgb(74, 74, 200);
+    transform: translateY(-5px);
+}
+
+.second-btn:hover {
+    background-color: rgb(84, 84, 236);
+    color: white;
+    transform: translateY(-5px);
+}
+
+.hero-all-stats {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.hero-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-number {
+    color: rgb(84, 84, 236);
+    font-size: 30px;
+}
+
+.hero-stats p {
+    color: rgb(182, 181, 181);
+    font-size: 15px;
+}
+
+#about {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 150px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-text h5 {
+    color: rgb(84, 84, 236);
+}
+
+.about-img {
+    max-width: 680px;
+    height: 100%;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 37px;
+}
+
+.about-text p {
+    color: rgb(182, 181, 181);
+    line-height: 25px;
+}
+
+.about-achived {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub-about-info p {
+    color: white;
+}
+
+.sub-about-info img {
+    width: 25px;
+}
+
+.sub-about-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.about-img-part {
+    position: relative;
+
+}
+
+.about-upper-img {
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+
+    overflow: hidden;
+}
+
+.about-upper-img img {
+    max-width: 320px;
+    height: 100%;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+.about-stats {
+    background-color: rgb(30, 30, 60);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    top: -30px;
+    right: -30px;
+    border-radius: 15px;
+}
+
+.about-number {
+    color: rgb(84, 84, 236);
+    font-size: 40px;
+}
+
+.about-stats span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-sphere {
+    color: rgb(182, 181, 181);
+    font-size: 14px;
+}
+
+.about-more-span {
+    padding-top: 35px;
+}
+
+.about-more-btn {
+    padding: 16px 37px;
+    border-radius: 40px;
+    background-color: rgb(84, 84, 236);
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.about-more-btn:hover {
+    background-color: rgb(74, 74, 200);
+    transform: translateY(-5px);
+}
+
+.services-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.services-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(25, 25, 48);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(55, 55, 104);
+    transition: 0.3s;
+}
+
+.services-card:hover {
+    transform: translateY(-10px);
+}
+
+.services-intro {
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.services-subinfo {
+    color: rgb(182, 181, 181);
+    text-align: center;
+}
+
+.services-img {
+    transition: 0.3s;
+    border-radius: 100%;
+}
+
+.services-card:hover .services-img {
+    transform: scale(1.1);
+}
+
+.services-card h3 {
+    color: white;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+.services-card h3:hover {
+    color: rgb(84, 84, 236);
+}
+
+.services-card p {
+    color: rgb(182, 181, 181);
+    text-align: center;
+}
+
+.services-more {
+    color: rgb(66, 66, 181);
+    font-weight: bold;
+}
+
+.get-started-today {
+    background-color: rgb(25, 25, 48);
+    border-radius: 20px;
+    border: 1px solid rgb(55, 55, 104);
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.get-started-today h3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.get-started-today p {
+    color: rgb(182, 181, 181);
+}
+
+.go-start-btn {
+    padding: 16px 30px;
+    border-radius: 40px;
+    background-color: rgb(84, 84, 236);
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    transition: 0.3s;
+    font-weight: bold;
+    box-shadow: 1px 10px 10px rgb(38, 38, 146);
+}
+
+.go-start-btn:hover{
+    transform: translateY(-5px);
+    box-shadow: 1px 10px 10px rgb(62, 62, 195);
+}
+
+#portfolio{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.portfolio-intro{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.portfolio-subinfo{
+    color: white;
+    text-align: center;
+}
